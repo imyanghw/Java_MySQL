@@ -37,22 +37,20 @@ public class InformationDriver {
 				new InformationDelete().deleteInfo(stmt);
 			}
 			if(menu==4) {
-				System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 				break;
 			}
-			stmt.close();
-			con.close();
 		}
 	}
 	
 	void menu() {
 		System.out.println("========");
-		System.out.println("1.Á¤º¸ÀÔ·Â");
-		System.out.println("2.¸ñ·ÏÈ®ÀÎ");
-		System.out.println("3.Á¤º¸»èÁ¦");
-		System.out.println("4.ÀÛ¾÷Á¾·á");
+		System.out.println("1.ì •ë³´ì…ë ¥");
+		System.out.println("2.ëª©ë¡í™•ì¸");
+		System.out.println("3.ì •ë³´ì‚­ì œ");
+		System.out.println("4.ì‘ì—…ì¢…ë£Œ");
 		System.out.println("========");
-		System.out.print("¿øÇÏ´Â ÀÛ¾÷¼±ÅÃ : ");	
+		System.out.print("ì›í•˜ëŠ” ì‘ì—…ì„ íƒ : ");	
 		menu = scan.nextInt();	
 	}
 }
