@@ -38,7 +38,9 @@ public class InformationDriver {
 			}
 			if(menu==4) {
 				System.out.println("프로그램을 종료합니다.");
-				break;
+				stmt.close();
+				con.close();
+				break;			
 			}
 		}
 	}
