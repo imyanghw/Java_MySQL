@@ -7,6 +7,6 @@ MySQL 연동을 통한 간단한 정보 입/출력, 삭제 예시 프로그램
 > mysql-connector-java-5.1.45-bin(https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.45/)
 
 ## Screenshots
-<img src="https://user-images.githubusercontent.com/76413580/108712064-9a86d980-7559-11eb-82ac-b30c1f01841a.PNG" width="80%"></image>
+<img src="https://user-images.githubusercontent.com/76413580/108712064-9a86d980-7559-11eb-82ac-b30c1f01841a.PNG" width="100%"></image>
 <img src="https://user-images.githubusercontent.com/76413580/108711524-d53c4200-7558-11eb-9f9b-aa1600a9c98f.PNG" width="120%"></image>
 
